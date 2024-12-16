@@ -6,7 +6,7 @@ nombre = 'tabla-' + str(n) + '.txt'
 if os.path.isfile(nombre):
     file = open(nombre, 'r')
     linea= file.readlines()
-    x=linea[m:m+1]
+    x=linea[m]
     print(x)
     file.close()
 else:
